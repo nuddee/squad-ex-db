@@ -1,0 +1,9 @@
+node_modules
+.next
+tmp
+.env*
+!.env.example
+
+*.tsbuildinfo
+__pycache__/
+*.pyc

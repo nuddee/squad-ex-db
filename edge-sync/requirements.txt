@@ -1,0 +1,3 @@
+# AgriVision QC edge-sync dependencies (Python >= 3.8 required)
+# Pillow is required to generate 480 px JPEG thumbnails on the Jetson before uploading snapshots.
+Pillow>=9.0,<12.0

@@ -1,0 +1,37 @@
+[Unit]
+Description=AgriVision QC edge-sync uploader
+Documentation=https://emqooadipseotdbzqtbd.supabase.co
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=10
+
+[Service]
+Type=simple
+User=ps-jetson
+Group=ps-jetson
+WorkingDirectory=/opt/agrivision/edge-sync
+# Contains AGRIVISION_API_URL (https://...), AGRIVISION_DEVICE_KEY (agv_...), and optional AGRIVISION_RESULTS_DIR.
+# Restrict permissions so only root / service can read the key:
+#   sudo chown root:ps-jetson /etc/agrivision-sync.env && sudo chmod 0640 /etc/agrivision-sync.env
+# (or 0600 root:root — systemd reads EnvironmentFile as root before dropping privileges to User=ps-jetson)
+EnvironmentFile=/etc/agrivision-sync.env
+ExecStart=/opt/agrivision/edge-sync/.venv/bin/python /opt/agrivision/edge-sync/sync.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+KillSignal=SIGTERM
+
+# Logging & journald rate-limiting (cap journal usage with SystemMaxUse=200M in /etc/systemd/journald.conf)
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=agrivision-sync
+LogRateLimitIntervalSec=30s
+LogRateLimitBurst=200
+
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

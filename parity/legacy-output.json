@@ -1,0 +1,456 @@
+{
+  "legacy_file": "../x-26-10.py",
+  "pandas": "3.0.6",
+  "fixtures": {
+    "real_multiplate.csv": {
+      "row_count": 25,
+      "tz_aware": true,
+      "first_time": "2026-09-14T08:48:11",
+      "last_time": "2026-09-14T08:51:30",
+      "windows": {
+        "200": {
+          "summary": {
+            "total_plates": 5,
+            "total_detections": 22292,
+            "estimated_seeds": 22292,
+            "Good %": 92.3,
+            "Immature %": 6.7,
+            "Spoiled & Mold %": 0.8,
+            "Discolor %": 0.2,
+            "Total Defect %": 7.7,
+            "good_count_est": 20584.1,
+            "good_weight_g": 6381.1,
+            "defect_weight_g": 353.8,
+            "Good % (wt)": 94.7,
+            "Total Defect % (wt)": 5.3,
+            "Immature % (wt)": 4.5,
+            "Spoiled & Mold % (wt)": 0.6,
+            "Discolor % (wt)": 0.2,
+            "weight_warning": false,
+            "total_weight_g": 6734.8,
+            "classes": {
+              "Good %": 92.3,
+              "Immature %": 6.7,
+              "Spoiled & Mold %": 0.8,
+              "Discolor %": 0.2
+            },
+            "is_complete_5plate": true,
+            "min_defect": 4.6,
+            "max_defect": 10.3,
+            "defect_spread": 5.7,
+            "has_high_variance": false,
+            "is_defect_high": false
+          },
+          "plates": [
+            {
+              "Plate": 1,
+              "Seeds": 3900,
+              "Good %": 91.7,
+              "Immature %": 6.6,
+              "Spoiled & Mold %": 1.0,
+              "Discolor %": 0.8,
+              "Defect %": 8.3,
+              "Good seeds (est.)": 3575.4
+            },
+            {
+              "Plate": 2,
+              "Seeds": 3442,
+              "Good %": 89.7,
+              "Immature %": 6.8,
+              "Spoiled & Mold %": 3.3,
+              "Discolor %": 0.2,
+              "Defect %": 10.3,
+              "Good seeds (est.)": 3089.2
+            },
+            {
+              "Plate": 3,
+              "Seeds": 4800,
+              "Good %": 94.0,
+              "Immature %": 6.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 0.0,
+              "Defect %": 6.0,
+              "Good seeds (est.)": 4514.3
+            },
+            {
+              "Plate": 4,
+              "Seeds": 5100,
+              "Good %": 95.4,
+              "Immature %": 4.4,
+              "Spoiled & Mold %": 0.3,
+              "Discolor %": 0.0,
+              "Defect %": 4.6,
+              "Good seeds (est.)": 4863.2
+            },
+            {
+              "Plate": 5,
+              "Seeds": 5049,
+              "Good %": 90.0,
+              "Immature %": 10.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 0.0,
+              "Defect %": 10.0,
+              "Good seeds (est.)": 4542.1
+            }
+          ]
+        },
+        "0": {
+          "summary": {
+            "total_plates": 5,
+            "total_detections": 22292,
+            "estimated_seeds": 22292,
+            "Good %": 92.3,
+            "Immature %": 6.7,
+            "Spoiled & Mold %": 0.8,
+            "Discolor %": 0.2,
+            "Total Defect %": 7.7,
+            "good_count_est": 20584.1,
+            "good_weight_g": 6381.1,
+            "defect_weight_g": 353.8,
+            "Good % (wt)": 94.7,
+            "Total Defect % (wt)": 5.3,
+            "Immature % (wt)": 4.5,
+            "Spoiled & Mold % (wt)": 0.6,
+            "Discolor % (wt)": 0.2,
+            "weight_warning": false,
+            "total_weight_g": 6734.8,
+            "classes": {
+              "Good %": 92.3,
+              "Immature %": 6.7,
+              "Spoiled & Mold %": 0.8,
+              "Discolor %": 0.2
+            },
+            "is_complete_5plate": true,
+            "min_defect": 4.6,
+            "max_defect": 10.3,
+            "defect_spread": 5.7,
+            "has_high_variance": false,
+            "is_defect_high": false
+          },
+          "plates": [
+            {
+              "Plate": 1,
+              "Seeds": 3900,
+              "Good %": 91.7,
+              "Immature %": 6.6,
+              "Spoiled & Mold %": 1.0,
+              "Discolor %": 0.8,
+              "Defect %": 8.3,
+              "Good seeds (est.)": 3575.4
+            },
+            {
+              "Plate": 2,
+              "Seeds": 3442,
+              "Good %": 89.7,
+              "Immature %": 6.8,
+              "Spoiled & Mold %": 3.3,
+              "Discolor %": 0.2,
+              "Defect %": 10.3,
+              "Good seeds (est.)": 3089.2
+            },
+            {
+              "Plate": 3,
+              "Seeds": 4800,
+              "Good %": 94.0,
+              "Immature %": 6.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 0.0,
+              "Defect %": 6.0,
+              "Good seeds (est.)": 4514.3
+            },
+            {
+              "Plate": 4,
+              "Seeds": 5100,
+              "Good %": 95.4,
+              "Immature %": 4.4,
+              "Spoiled & Mold %": 0.3,
+              "Discolor %": 0.0,
+              "Defect %": 4.6,
+              "Good seeds (est.)": 4863.2
+            },
+            {
+              "Plate": 5,
+              "Seeds": 5049,
+              "Good %": 90.0,
+              "Immature %": 10.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 0.0,
+              "Defect %": 10.0,
+              "Good seeds (est.)": 4542.1
+            }
+          ]
+        }
+      }
+    },
+    "real_old_format.csv": {
+      "row_count": 13,
+      "tz_aware": true,
+      "first_time": "2026-05-21T03:19:50",
+      "last_time": "2026-05-21T03:21:50",
+      "windows": {
+        "200": {
+          "summary": {
+            "total_plates": 1,
+            "total_detections": 96,
+            "estimated_seeds": 96,
+            "Good %": 26.4,
+            "Immature %": 0.0,
+            "Spoiled & Mold %": 0.0,
+            "Discolor %": 73.6,
+            "Total Defect %": 73.6,
+            "good_count_est": 25.3,
+            "good_weight_g": 7.8,
+            "defect_weight_g": 21.2,
+            "Good % (wt)": 27.0,
+            "Total Defect % (wt)": 73.0,
+            "Immature % (wt)": 0.0,
+            "Spoiled & Mold % (wt)": 0.0,
+            "Discolor % (wt)": 73.0,
+            "weight_warning": false,
+            "total_weight_g": 29.0,
+            "classes": {
+              "Good %": 26.4,
+              "Immature %": 0.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 73.6
+            },
+            "is_complete_5plate": false,
+            "min_defect": 0.0,
+            "max_defect": 0.0,
+            "defect_spread": 0.0,
+            "has_high_variance": false,
+            "is_defect_high": true
+          },
+          "plates": [
+            {
+              "Plate": 1,
+              "Seeds": 102,
+              "Good %": 24.8,
+              "Immature %": 0.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 69.2,
+              "Defect %": 75.2,
+              "Good seeds (est.)": 25.3
+            }
+          ]
+        },
+        "0": {
+          "summary": {
+            "total_plates": 1,
+            "total_detections": 96,
+            "estimated_seeds": 96,
+            "Good %": 26.4,
+            "Immature %": 0.0,
+            "Spoiled & Mold %": 0.0,
+            "Discolor %": 73.6,
+            "Total Defect %": 73.6,
+            "good_count_est": 25.3,
+            "good_weight_g": 7.8,
+            "defect_weight_g": 21.2,
+            "Good % (wt)": 27.0,
+            "Total Defect % (wt)": 73.0,
+            "Immature % (wt)": 0.0,
+            "Spoiled & Mold % (wt)": 0.0,
+            "Discolor % (wt)": 73.0,
+            "weight_warning": false,
+            "total_weight_g": 29.0,
+            "classes": {
+              "Good %": 26.4,
+              "Immature %": 0.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 73.6
+            },
+            "is_complete_5plate": false,
+            "min_defect": 0.0,
+            "max_defect": 0.0,
+            "defect_spread": 0.0,
+            "has_high_variance": false,
+            "is_defect_high": true
+          },
+          "plates": [
+            {
+              "Plate": 1,
+              "Seeds": 102,
+              "Good %": 24.8,
+              "Immature %": 0.0,
+              "Spoiled & Mold %": 0.0,
+              "Discolor %": 69.2,
+              "Defect %": 75.2,
+              "Good seeds (est.)": 25.3
+            }
+          ]
+        }
+      }
+    },
+    "synthetic_5plates.csv": {
+      "row_count": 300,
+      "tz_aware": false,
+      "first_time": "2026-10-28T09:00:00",
+      "last_time": "2026-10-28T09:49:50",
+      "windows": {
+        "200": {
+          "summary": {
+            "total_plates": 4,
+            "total_detections": 3402,
+            "estimated_seeds": 3402,
+            "Good %": 82.6,
+            "Immature %": 9.7,
+            "Spoiled & Mold %": 3.8,
+            "Discolor %": 3.9,
+            "Total Defect %": 17.4,
+            "good_count_est": 2810.5,
+            "good_weight_g": 871.3,
+            "defect_weight_g": 137.9,
+            "Good % (wt)": 86.3,
+            "Total Defect % (wt)": 13.7,
+            "Immature % (wt)": 6.5,
+            "Spoiled & Mold % (wt)": 3.2,
+            "Discolor % (wt)": 3.9,
+            "weight_warning": false,
+            "total_weight_g": 1009.2,
+            "classes": {
+              "Good %": 82.6,
+              "Immature %": 9.7,
+              "Spoiled & Mold %": 3.8,
+              "Discolor %": 3.9
+            },
+            "is_complete_5plate": false,
+            "min_defect": 12.9,
+            "max_defect": 24.4,
+            "defect_spread": 11.5,
+            "has_high_variance": true,
+            "is_defect_high": true
+          },
+          "plates": [
+            {
+              "Plate": 2,
+              "Seeds": 795,
+              "Good %": 87.1,
+              "Immature %": 6.4,
+              "Spoiled & Mold %": 2.6,
+              "Discolor %": 2.6,
+              "Defect %": 12.9,
+              "Good seeds (est.)": 692.6
+            },
+            {
+              "Plate": 3,
+              "Seeds": 801,
+              "Good %": 83.0,
+              "Immature %": 8.5,
+              "Spoiled & Mold %": 3.3,
+              "Discolor %": 3.5,
+              "Defect %": 17.0,
+              "Good seeds (est.)": 665.4
+            },
+            {
+              "Plate": 4,
+              "Seeds": 1065,
+              "Good %": 79.2,
+              "Immature %": 10.5,
+              "Spoiled & Mold %": 4.1,
+              "Discolor %": 4.1,
+              "Defect %": 20.8,
+              "Good seeds (est.)": 844.0
+            },
+            {
+              "Plate": 5,
+              "Seeds": 804,
+              "Good %": 75.6,
+              "Immature %": 12.3,
+              "Spoiled & Mold %": 4.8,
+              "Discolor %": 4.9,
+              "Defect %": 24.4,
+              "Good seeds (est.)": 608.5
+            }
+          ]
+        },
+        "0": {
+          "summary": {
+            "total_plates": 5,
+            "total_detections": 4197,
+            "estimated_seeds": 4197,
+            "Good %": 84.4,
+            "Immature %": 8.7,
+            "Spoiled & Mold %": 3.4,
+            "Discolor %": 3.5,
+            "Total Defect %": 15.6,
+            "good_count_est": 3542.1,
+            "good_weight_g": 1098.0,
+            "defect_weight_g": 152.7,
+            "Good % (wt)": 87.8,
+            "Total Defect % (wt)": 12.2,
+            "Immature % (wt)": 5.9,
+            "Spoiled & Mold % (wt)": 2.9,
+            "Discolor % (wt)": 3.5,
+            "weight_warning": false,
+            "total_weight_g": 1250.7,
+            "classes": {
+              "Good %": 84.4,
+              "Immature %": 8.7,
+              "Spoiled & Mold %": 3.4,
+              "Discolor %": 3.5
+            },
+            "is_complete_5plate": true,
+            "min_defect": 8.8,
+            "max_defect": 24.4,
+            "defect_spread": 15.6,
+            "has_high_variance": true,
+            "is_defect_high": true
+          },
+          "plates": [
+            {
+              "Plate": 1,
+              "Seeds": 796,
+              "Good %": 91.2,
+              "Immature %": 4.5,
+              "Spoiled & Mold %": 1.8,
+              "Discolor %": 1.7,
+              "Defect %": 8.8,
+              "Good seeds (est.)": 725.8
+            },
+            {
+              "Plate": 2,
+              "Seeds": 800,
+              "Good %": 87.2,
+              "Immature %": 6.4,
+              "Spoiled & Mold %": 2.6,
+              "Discolor %": 2.6,
+              "Defect %": 12.8,
+              "Good seeds (est.)": 698.4
+            },
+            {
+              "Plate": 3,
+              "Seeds": 801,
+              "Good %": 83.0,
+              "Immature %": 8.5,
+              "Spoiled & Mold %": 3.3,
+              "Discolor %": 3.5,
+              "Defect %": 17.0,
+              "Good seeds (est.)": 665.4
+            },
+            {
+              "Plate": 4,
+              "Seeds": 1065,
+              "Good %": 79.2,
+              "Immature %": 10.5,
+              "Spoiled & Mold %": 4.1,
+              "Discolor %": 4.1,
+              "Defect %": 20.8,
+              "Good seeds (est.)": 844.0
+            },
+            {
+              "Plate": 5,
+              "Seeds": 804,
+              "Good %": 75.6,
+              "Immature %": 12.3,
+              "Spoiled & Mold %": 4.8,
+              "Discolor %": 4.9,
+              "Defect %": 24.4,
+              "Good seeds (est.)": 608.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}
